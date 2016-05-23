@@ -1,0 +1,9 @@
+<root>
+  <facet id="jst.jaxrs">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="2.0" value="jaxrs-no-op-library-provider"/>
+      </node>
+    </node>
+  </facet>
+</root>

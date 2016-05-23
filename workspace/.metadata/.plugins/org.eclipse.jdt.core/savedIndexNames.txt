@@ -1,0 +1,17 @@
+INDEX VERSION 1.129+D:\jclee\강의자료\T-아카데미\JPA\dev-ecommerce2\workspace\.metadata\.plugins\org.eclipse.jdt.core
+3169623720.index
+327165507.index
+854781610.index
+2885402384.index
+1994489866.index
+1185382501.index
+3647065992.index
+4051745004.index
+3964755310.index
+683891390.index
+3788380088.index
+1871595837.index
+2290215115.index
+2507821996.index
+3456141522.index
+3496630525.index

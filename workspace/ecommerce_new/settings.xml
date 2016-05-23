@@ -1,0 +1,23 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<localRepository>C:\Users\ooo\.m2\repository/localRepository</localRepository>
+	<interactiveMode />
+	<usePluginRegistry />
+	<offline />
+	<pluginGroups />
+	<servers />
+	<mirrors />
+	<proxies />
+	<profiles>
+		<profile>
+			<id>local</id>
+			<properties>
+				<db.address>localhost</db.address>
+				<db.password>1111</db.password>
+			</properties>
+		</profile>
+	</profiles>
+	<activeProfiles />
+</settings>

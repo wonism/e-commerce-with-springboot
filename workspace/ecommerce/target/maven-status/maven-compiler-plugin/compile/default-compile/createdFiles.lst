@@ -1,0 +1,10 @@
+com\tacademy\ecommerce\domain\QOrderProduct.class
+com\tacademy\ecommerce\domain\QCart.class
+com\tacademy\ecommerce\domain\QUser.class
+com\tacademy\ecommerce\domain\QCartProduct_Id.class
+com\tacademy\ecommerce\domain\QAuthority.class
+com\tacademy\ecommerce\domain\QOrderProduct_Id.class
+com\tacademy\ecommerce\domain\QCartProduct.class
+com\tacademy\ecommerce\domain\QOrder.class
+com\tacademy\ecommerce\domain\QAbstractEntity.class
+com\tacademy\ecommerce\domain\QProduct.class

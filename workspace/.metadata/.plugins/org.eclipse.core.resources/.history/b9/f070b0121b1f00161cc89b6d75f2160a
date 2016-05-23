@@ -1,0 +1,45 @@
+spring.config.name=service
+spring.config.location=classpath:/service.properties
+
+# DATASOURCE
+spring.datasource.platform=mysql
+spring.datasource.sqlScriptEncoding=UTF-8
+spring.datasource.url=${jdbc.url}
+spring.datasource.username=${jdbc.username}
+spring.datasource.password=${jdbc.password}
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.max-active=100
+spring.datasource.max-idle=8
+spring.datasource.min-idle=8
+spring.datasource.initial-size=10
+spring.datasource.validation-query=SELECT 1
+spring.datasource.test-on-borrow=true
+spring.datasource.initialize=false
+
+# JPA
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.show-sql=true
+spring.jpa.open-in-view=true
+spring.data.jpa.repositories.enabled=true
+
+# VIEW
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+
+# SECURITY
+security.user.name=admin
+security.user.password=1111
+security.user.role=ADMIN
+security.basic.enabled=false
+
+# LOGGING
+logging.level.com.tacademy.ecommerce=DEBUG
+
+# ECOMMERCE SERVICE
+storage.path=${config.storage.path}
+storage.uri=/storage
+
+
+
+
